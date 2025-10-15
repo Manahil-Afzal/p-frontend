@@ -9,7 +9,7 @@ export default function Contact({ listing }) {
   const onChange = (e) => {
     setMessage(e.target.value);
   };
-  const API_BASE_URL = "https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app";
+  const API_BASE_URL = "https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app/api";
   useEffect(() => {
     const fetchLandlord = async () => {
       try {
