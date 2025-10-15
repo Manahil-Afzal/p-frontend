@@ -20,7 +20,7 @@ export default function Profile() {
   const [showListingsError, setShowListingsError] = useState(false);
   const [userListings, setUserListings] = useState([]);
   const dispatch = useDispatch();
-  const API_BASE_URL = "https://project-api-phi-beryl.vercel.app/api";
+  const API_BASE_URL = "https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app/api";
 
   
   useEffect(() => {

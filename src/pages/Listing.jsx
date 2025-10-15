@@ -29,7 +29,7 @@ export default function Listing() {
   const [contact, setContact] = useState(false);
   const params = useParams();
   const { currentUser } = useSelector((state) => state.user);
-  const API_BASE_URL = "https://project-api-phi-beryl.vercel.app/api";
+  const API_BASE_URL = "https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app/api";
 
   useEffect(() => {
     const fetchListing = async () => {

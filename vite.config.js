@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://project-api-phi-beryl.vercel.app/',
+        target: 'https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app/api',
         secure: false,
       },
     },

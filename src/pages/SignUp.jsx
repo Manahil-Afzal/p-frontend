@@ -12,6 +12,7 @@ export default function SignUp() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
+  const API_BASE_URL =  "https://p-backend-dtfsmzc21-manahil-afzals-projects.vercel.app/api";
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
